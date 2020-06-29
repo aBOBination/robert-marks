@@ -91,19 +91,27 @@ export function loadWork() {
     const h = document.createElement('h1');
     h.innerText = project.name;
 
+    const iconGh = document.createElement('i');
+    iconGh.classList.add('fab', 'fa-github-square');
+
+    const iconLink = document.createElement('i');
+    iconLink.classList.add('fa', 'fa-external-link-square');
+
     const a1 = document.createElement('a');
     a1.setAttribute('href', project.github);
+    a1.setAttribute('target', '_blank');
 
     const a2 = document.createElement('a');
     a2.setAttribute('href', project.link);
+    a2.setAttribute('target', '_blank');
 
+    a1.appendChild(iconGh);
+    a2.appendChild(iconLink);
     section.appendChild(h);
     section.appendChild(a1);
     section.appendChild(a2);
-
     proj.appendChild(image);
     proj.appendChild(section);
-
     cont.appendChild(proj);
   });
   main.appendChild(cont);
