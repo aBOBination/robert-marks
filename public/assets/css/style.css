@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Mitr&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.me {
+  border-radius: 50%;
+  background: black;
+  overflow: hidden;
+  background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(rgba(225, 226, 225, 0.8), rgba(1, 37, 42, 0.8)), url("https://as1.ftcdn.net/jppg/02/10/21/58/500_F_210215884_eiPZhN1xUM9HaIm7Ak1j1sQqPLrvUaiy.jpg");
+  background: linear-gradient(rgba(225, 226, 225, 0.8), rgba(1, 37, 42, 0.8)), url("https://as1.ftcdn.net/jpg/02/10/21/58/500_F_210215884_eiPZhN1xUM9HaIm7Ak1j1sQqPLrvUaiy.jpg"); /* The least supported option. */
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 3.6fr;
+  grid-template-rows: 2vh 18vh minmax(70vh, auto) minmax(10vh, auto);
+  grid-template-areas: "Border" "Header" "Main" "Footer";
+}
+
+.Border {
+  grid-area: Border;
+  background-color: #0097a7;
+  color: #f5f5f6;
+}
+#Header {
+  grid-area: Header;
+  background-color: #00acc1;
+  color: #f5f5f6;
+  /* position: relative; */
+}
+
+.mynav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 9vh;
+}
+
+.mynav li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.mynav p {
+  display: block;
+  font-size: 20px;
+  color: #e1e2e1;
+  text-decoration: none;
+  padding: 7px 15px;
+}
+
+.target {
+  position: absolute;
+  border-bottom: 4px solid transparent;
+  z-index: -1;
+  transform: translateX(-60px);
+  box-shadow: 3px 3px 8px #e1e2e1;
+}
+
+.mynav p,
+.target {
+  transition: all .35s ease-in-out;
+}
+
+
+#Main {
+  grid-area: Main;
+  background-color: #e1e2e1;
+  color: #607d8b;
+  display: flex;
+}
+
+#Main > div {
+  margin: auto;
+  color: #444;
+  font-size: 35px;
+  text-align: center;
+  max-width: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#Main > .row {
+  padding-top: auto;
+  padding-bottom: auto;
+  width: 70%;
+
+}
+
+.me {
+  max-width: -webkit-fill-available;
+}
+
+#Main > .row > div {
+  max-width: 100vw;
+}
+
+.project-container {
+  justify-content: center;
+  place-content: space-around;
+}
+
+.project-header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  width: 300px;
+  min-height: 200px;
+  max-height: auto;
+  float: left;
+  background: black;
+  overflow: hidden;
+  box-shadow: 10px 10px 5px grey;
+  background: #00acc1;  /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(rgba(6, 172, 193, 0.8), rgba(0, 0, 0, )), url("../images/card-bg.png");
+  background: linear-gradient(rgba(6, 172, 193, 0.8), rgba(0, 0, 0, 0.8)), url("../images/card-bg.png"); /* The least supported option. */
+}
+
+.project-header:hover {
+  box-shadow: 8px 8px 3px grey;
+}
+
+.project-img {
+  max-width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.project-text {
+  text-align: center;
+  color: #e1e2e1;
+}
+.project-text > a {
+  color: #e1e2e1;
+}
+
+#Footer {
+  grid-area: Footer;
+  background-color: #f5f5f6;
+  color: #607d8b;
+}
+
+#Footer > div > a {
+  color: #00acc1;
+}
