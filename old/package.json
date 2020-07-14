@@ -1,0 +1,23 @@
+{
+  "name": "robert-marks",
+  "version": "1.0.0",
+  "description": "Personal Website of Robert Marks",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aBOBination/robert-marks.git"
+  },
+  "author": "Robert Marks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aBOBination/robert-marks/issues"
+  },
+  "homepage": "https://github.com/aBOBination/robert-marks#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
