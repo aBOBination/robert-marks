@@ -1,0 +1,17 @@
+svg {
+  width: 1rem;
+}
+
+.skills-icon-holder {
+  background: #41A4F5;
+  width: 80px;
+  height: 80px;
+  padding-top: 1.25rem;
+  top: -40px;
+  left: 50%;
+  margin-left: -40px;
+}
+
+.skills {
+  background: #F7F8FA;
+}

@@ -1,3 +1,7 @@
-header {
-  text-align: center;
+.header-intro {
+  margin-top: 55.7px;
+}
+
+.profile-image {
+  max-width: 240px;
 }
