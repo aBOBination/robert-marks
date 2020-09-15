@@ -3,39 +3,47 @@ import './Nav.css';
 
 export default function Nav() {
   return (
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-      {/* <a class="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      {/* <a className="navbar-brand" href="#">
         Navbar
       </a> */}
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
+        data-target="#navigation"
+        aria-controls="navigation"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            About
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            Projects
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            Resume
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            Contact
-          </a>
-        </li>
-      </ul>
+      <div className="collapse navbar-collapse text-uppercase" id="navigation">
+        <ul className="navbar-nav">
+          <li className="nav-item active">
+            <a className="nav-link" href="#">
+              About
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              Projects
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              Resume
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <span
+          id="slide-line"
+          style={{ width: '85.4297px', left: '507.188px' }}></span>
+      </div>
     </nav>
   );
 }

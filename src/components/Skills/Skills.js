@@ -33,7 +33,7 @@ export default function Skills() {
                         d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
                     </svg>{' '}
                     <i className="fas fa-check mr-2 text-primary"></i>{' '}
-                    React/Redux/Angular
+                    React/Redux
                   </li>
                   <li className="mb-2">
                     <svg
@@ -85,8 +85,7 @@ export default function Skills() {
                         fill="currentColor"
                         d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
                     </svg>{' '}
-                    <i className="fas fa-check mr-2 text-primary"></i>{' '}
-                    Webpack/Gulp/Grunt
+                    <i className="fas fa-check mr-2 text-primary"></i> Webpack
                   </li>
                   <li className="mb-2">
                     <svg
@@ -103,8 +102,7 @@ export default function Skills() {
                         fill="currentColor"
                         d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
                     </svg>{' '}
-                    <i className="fas fa-check mr-2 text-primary"></i>{' '}
-                    HTML/CSS/SASS/LESS
+                    <i className="fas fa-check mr-2 text-primary"></i> HTML/CSS
                   </li>
                 </ul>
               </div>
@@ -135,8 +133,7 @@ export default function Skills() {
                         fill="currentColor"
                         d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
                     </svg>{' '}
-                    <i className="fas fa-check mr-2 text-primary"></i>{' '}
-                    Python/Django
+                    <i className="fas fa-check mr-2 text-primary"></i> Python
                   </li>
                   <li className="mb-2">
                     <svg
@@ -153,8 +150,7 @@ export default function Skills() {
                         fill="currentColor"
                         d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
                     </svg>{' '}
-                    <i className="fas fa-check mr-2 text-primary"></i>{' '}
-                    Ruby/Rails
+                    <i className="fas fa-check mr-2 text-primary"></i> Express
                   </li>
                   <li className="mb-2">
                     <svg

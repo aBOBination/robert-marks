@@ -1,3 +1,34 @@
-.navbar {
+.collapse {
   justify-content: center;
+}
+#navigation .active {
+  font-weight: 600
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #6f8098;
+    background-color: #fff;
+    border-color: #c8cfd8 #c8cfd8 #fff
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #41A4F5
+}
+
+
+#slide-line {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 2px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out
+}
+@media (prefers-reduced-motion: reduce) {
+  #slide-line {
+      -webkit-transition: none;
+      transition: none
+  }
 }
